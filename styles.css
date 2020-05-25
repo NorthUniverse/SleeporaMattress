@@ -1,7 +1,30 @@
-.placeholder {
-    background-color: red;
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 38px;
 }
 
-.anotherClass {
-    background-color: lightseagreen;
+.banner {
+    display: flex;
+}
+
+.nav-wrapper > div {
+    margin: 20px;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    height: 32px;
+}
+
+.nav-wrapper > div a {
+    color: #8a8a8a;
+    text-decoration: none;
+    text-replace: color 0.5s;
+}
+
+.nav-wrapper > div:hover {
+    border-bottom: 2px solid black;
+}
+
+.nav-wrapper > div a:hover {
+    color: black;
 }
