@@ -8,35 +8,54 @@ body {
     grid-template-columns: 1fr;
 }
 
-.nav-wrapper {
+.banner-image > img {
+    height: 240px;
+    width: 65%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.link-wrapper {
     display: flex;
     justify-content: space-between;
     padding: 38px;
 }
 
-.banner {
-    display: flex;
-}
-
-.nav-wrapper > div {
+.link-wrapper > div {
     margin: 20px;
     font-size: 1.5em;
     text-transform: uppercase;
     height: 32px;
 }
 
-.nav-wrapper > div a {
+.link-wrapper > div a {
     color: #8a8a8a;
     text-decoration: none;
     transition: color 0.5s;
 }
 
-.nav-wrapper > div:hover {
+.link-wrapper > div:hover {
     border-bottom: 2px solid black;
 }
 
-.nav-wrapper > div a:hover {
+.link-wrapper > div a:hover {
     color: black;
+}
+
+.body-background-image > img {
+    height: 600px;
+    width: 66%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.body-text{
+    text-align: center;
+    font-size: 1.5em;
+    padding: 15px;
+    font-family: "Georgia";
 }
 
 .items-wrapper {
