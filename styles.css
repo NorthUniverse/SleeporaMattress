@@ -9,7 +9,7 @@ body {
 }
 
 .banner-image > img {
-    height: 240px;
+    height: 250px;
     width: 65%;
     display: block;
     margin-left: auto;
@@ -19,7 +19,7 @@ body {
 .link-wrapper {
     display: flex;
     justify-content: space-between;
-    padding: 38px;
+    padding: 0px 38px 38px 38px;
 }
 
 .link-wrapper > div {
