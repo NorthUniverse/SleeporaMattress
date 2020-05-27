@@ -1,3 +1,13 @@
+/* Master Styles */
+body {
+    margin: 0px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
 .nav-wrapper {
     display: flex;
     justify-content: space-between;
@@ -18,7 +28,7 @@
 .nav-wrapper > div a {
     color: #8a8a8a;
     text-decoration: none;
-    text-replace: color 0.5s;
+    transition: color 0.5s;
 }
 
 .nav-wrapper > div:hover {
@@ -28,3 +38,17 @@
 .nav-wrapper > div a:hover {
     color: black;
 }
+
+.items-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* grid-template-rows: r1fr 1fr 1fr 1fr; */
+}
+
+.item-wrapper > img {
+    position: relative;
+    height: 350px;
+    width: 100%;
+    object-fit: cover;
+}
+
