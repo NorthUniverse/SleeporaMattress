@@ -19,7 +19,7 @@ body {
 .link-wrapper {
     display: flex;
     justify-content: space-between;
-    padding: 20px 38px 10px 38px;
+    padding: 10px 38px 0px 38px;
     background-color: #DCDCDC;
 }
 
@@ -40,6 +40,14 @@ body {
     border-bottom: 2px solid black;
 }
 
+.active-link {
+    border-bottom: 2px solid black;
+}
+
+.active-link a {
+    color: black !important;
+}
+
 .link-wrapper > div a:hover {
     color: black;
 }
@@ -52,10 +60,10 @@ body {
     margin-right: auto;
 }
 
-.body-text{
+.body-home-text {
     text-align: center;
     font-size: 1.5em;
-    padding: 15px;
+    padding: 25px;
     font-family: "Georgia";
 }
 
@@ -69,5 +77,8 @@ body {
     height: 350px;
     width: 100%;
     object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
 }
 
