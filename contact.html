@@ -73,4 +73,14 @@
         </div>
     </body>
 
+    <script>
+        const imageDiv = document.querySelector('.body-contact-background-image')
+        imageDiv.addEventListener('mouseover', () => {
+            imageDiv.classList.add('image-darken');
+        })
+        imageDiv.addEventListener('mouseout', () => {
+            imageDiv.classList.remove('image-darken');
+        })
+    </script>
+
 </html>
