@@ -44,43 +44,46 @@
                                 BTM Layout 2nd Stage, N.S.Palya,<br/>
                                 Bangalore, 560 076, INDIA</p>
                         </div>
-                    <div class="h2-wrapper">
-                        <h2>Email:</h2>
-                    </div>
-                    <div class="p-wrapper">
-                        <p>mattressshoppe@rediffmail.com</p>
-                    </div>
-                    <div class="h2-wrapper">
-                        <h2>Phone Number: </h2>
-                    </div>
-                    <div class="p-wrapper">
-                        <p>080-26784104 / 05</p>
+                        <div class="h2-wrapper">
+                            <h2>Email:</h2>
+                        </div>
+                        <div class="p-wrapper">
+                            <p>matterssshoppe@rediffmail.com</p>
+                        </div>
+                        <div class="h2-wrapper">
+                            <h2>Phone Number: </h2>
+                        </div>
+                        <div class="p-wrapper">
+                            <p>080-26784104 / 05</p>
+                        </div>
                     </div>
                 </div>
-            
             </div>
         </div>
 
         <div class="footer">
             <div class="link-wrapper">
-                <div class="contact-us active-link">
+                <div class="contact">
                     <a href="contact.html">Contact us</a>
                 </div>
-                <div class="about">
-                    <a href="about.html">About</a>
-                </div>
+            </div>
+            <div class="socialbtns">
+                <a href="#" class="fa fa-lg fa-facebook"></a>
+                <a href="#" class="fa fa-lg fa-linkedin"></a>
+                <a href="#" class="fa fa-lg fa-instagram"></a>
             </div>
         </div>
     </body>
 
     <script>
         const imageDiv = document.querySelector('.body-contact-background-image')
-        imageDiv.addEventListener('mouseover', () => {
-            imageDiv.classList.add('image-darken');
+        const contactTextDiv = document.querySelector('.body-contact-text')
+        contactTextDiv.addEventListener('mouseover', () => {
+            imageDiv.classList.add('image-lighten');
         })
-        imageDiv.addEventListener('mouseout', () => {
-            imageDiv.classList.remove('image-darken');
-        })
+        contactTextDiv.addEventListener('mouseout', () => {
+            imageDiv.classList.remove('image-lighten');
+        })  
     </script>
 
 </html>
