@@ -1,4 +1,5 @@
 /* Master Styles */
+
 body {
     margin: 0px;
 }
@@ -8,7 +9,7 @@ body {
     grid-template-columns: 1fr;
 }
 
-.banner-image > img {
+.banner-image>img {
     height: 275px;
     width: 1000px;
     display: block;
@@ -29,20 +30,20 @@ body {
     background-color: #DCDCDC;
 }
 
-.link-wrapper > div {
+.link-wrapper>div {
     margin: 20px;
     font-size: 1.5em;
     text-transform: uppercase;
     height: 32px;
 }
 
-.link-wrapper > div a {
+.link-wrapper>div a {
     color: #696969;
     text-decoration: none;
     transition: color 0.2s;
 }
 
-.link-wrapper > div:hover {
+.link-wrapper>div:hover {
     border-bottom: 2px solid black;
 }
 
@@ -54,11 +55,11 @@ body {
     color: black !important;
 }
 
-.link-wrapper > div a:hover {
+.link-wrapper>div a:hover {
     color: black;
 }
 
-.body-home-background-image > img {
+.body-home-background-image>img {
     height: 800px;
     width: 1200px;
     display: block;
@@ -78,7 +79,7 @@ body {
     grid-template-columns: 1fr 1fr 1fr;
 }
 
-.item-wrapper > img {
+.item-wrapper>img {
     position: relative;
     height: 350px;
     width: 100%;
@@ -88,7 +89,7 @@ body {
     justify-content: center;
 }
 
-.body-contact-background-image > img {
+.body-contact-background-image>img {
     opacity: 0.7;
     height: 800px;
     width: auto;
