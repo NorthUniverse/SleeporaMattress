@@ -78,7 +78,7 @@
                     <a class="item-wrapper" target="_blank" href="images/gallery/6.jpg">
                         <img src="images/gallery/6.jpg" alt="sixth mattress picture">
                     </a>
-                    <a class="image-click-link" target="_blank" href="images/gallery/5.jpg">
+                    <a class="image-click-link" target="_blank" href="images/gallery/6.jpg">
                         Click here to enlarge
                     </a>
                 </div>
@@ -149,16 +149,21 @@
     </div>
 </body>
 
-<!-- <script>
-    const images = document.querySelectorAll('.item-wrapper')
-    images.forEach(image => {
-        image.addEventListener('mouseover', () => {
-            image.classList.add('gallery-image-darken');
+<script>
+    const imageTextLinks = document.querySelectorAll('.image-click-link')
+    imageTextLinks.forEach(imageTextLink => {
+        imageTextLink.addEventListener('mouseover', () => {
+            imageTextLink.classList.add('gallery-image-text-focussed');
+            const itemWrapper = imageTextLink.parentElement.childNodes[1];
+            itemWrapper.classList.add('gallery-image-darken');
+            console.log(itemWrapper);
         })
-        image.addEventListener('mouseout', () => {
-            image.classList.remove('gallery-image-darken');
+        imageTextLink.addEventListener('mouseout', () => {
+            imageTextLink.classList.remove('gallery-image-text-focussed');
+            const itemWrapper = imageTextLink.parentElement.childNodes[1];
+            itemWrapper.classList.remove('gallery-image-darken');
         })
     });
-</script> -->
+</script>
 
 </html>
