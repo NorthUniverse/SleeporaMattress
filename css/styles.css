@@ -15,18 +15,17 @@ body {
 }
 
 .banner-image>img {
-    height: 275px;
+    height: 200px;
     width: auto;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
 }
 
 .banner-text {
     text-align: left;
     font-size: 5em;
     font-family: "Georgia";
-    padding: 75px 200px 75px 0px;
+    padding: 50px 200px 50px 0px;
 }
 
 .link-wrapper {
@@ -154,7 +153,31 @@ body {
     transform: translate(-50%, -50%);
 }
 
+.body-about-background-image>img {
+    opacity: 0.7;
+    height: 800px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.body-about-wrapper {
+    position: relative;
+    width: 100%;
+}
+
+.body-about-text {
+    position: absolute;
+    text-align: center;
+    font-size: 1.5em;
+    font-family: "Georgia";
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 .contact-image-lighten {
     transition: 1s;
-    opacity: 0.7;
+    opacity: 0.9;
 }

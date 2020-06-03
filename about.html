@@ -12,8 +12,13 @@
 <body>
     <div class="container">
         <div class="header">
-            <div class="banner-image">
-                <img src="images/banner.PNG" alt="banner picture">
+            <div class="banner">
+                <div class="banner-image">
+                    <img src="images/logo.PNG" alt="banner picture">
+                </div>
+                <div class="banner-text">
+                    Sleepora Mattresses
+                </div>
             </div>
 
             <div class="link-wrapper">
@@ -33,11 +38,11 @@
         </div>
 
         <div class="content-wrapper">
-            <div class="body-contact-wrapper">
-                <div class="body-contact-background-image">
+            <div class="body-about-wrapper">
+                <div class="body-about-background-image">
                     <img src="images/about.jpg" alt="bed picture">
                 </div>
-                <div class=body-contact-text>
+                <div class=body-about-text>
                     <div class="h1-wrapper">
                         <h1>Our Story</h1>
                     </div>
@@ -75,13 +80,13 @@
 </body>
 
 <script>
-    const imageDiv = document.querySelector('.body-contact-background-image')
-    const contactTextDiv = document.querySelector('.body-contact-text')
-    contactTextDiv.addEventListener('mouseover', () => {
-        imageDiv.classList.add('contact-image-lighten');
+    const aboutImageDiv = document.querySelector('.body-about-background-image')
+    const aboutTextDiv = document.querySelector('.body-about-text')
+    aboutTextDiv.addEventListener('mouseover', () => {
+        aboutImageDiv.classList.add('contact-image-lighten');
     })
-    contactTextDiv.addEventListener('mouseout', () => {
-        imageDiv.classList.remove('contact-image-lighten');
+    aboutTextDiv.addEventListener('mouseout', () => {
+        aboutImageDiv.classList.remove('contact-image-lighten');
     })
 </script>
 
