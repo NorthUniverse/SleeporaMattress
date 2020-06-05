@@ -1,0 +1,106 @@
+.gallery-items-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.gallery-each-item {
+    position: relative;
+}
+
+.gallery-image-wrapper>img {
+    height: 350px;
+    width: 100%;
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+}
+
+.gallery-image-text-wrapper {
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    color: transparent;
+}
+
+.gallery-image-darken {
+    transition: 0.9s;
+    filter: brightness(20%);
+}
+
+.gallery-image-text-focussed {
+    transition: 1s;
+    font-size: 1.5em;
+    font-family: "Georgia";
+    color: lightseagreen;
+    text-decoration: none;
+}
+
+.gallery-image-overlay-wrapper-hidden {
+    position: fixed;
+    z-index: 5;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .3s;
+}
+
+.gallery-image-overlay-wrapper-active {
+    position: absolute;
+    width: 500px;
+    height: auto;
+    background: rgba(0, 0, 0, 0.9);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    transition: opacity .3s;
+}
+
+
+/* second attempt from https://www.sylvaindurand.org/overlay-image-in-pure-css/#_
+.overlay {
+    position: fixed;
+    z-index: 5;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .3s;
+}
+
+.overlay img {
+    max-width: 90%;
+    max-height: 90%;
+    width: auto;
+    height: auto;
+    transform: scale(0.95);
+    transition: transform .3s;
+}
+
+.overlay:target {
+    visibility: visible;
+    outline: none;
+    cursor: default;
+}
+
+.overlay:target img {
+    transform: scale(1);
+} */

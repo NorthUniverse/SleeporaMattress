@@ -85,36 +85,6 @@ body {
     font-family: "Georgia";
 }
 
-.items-wrapper {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-}
-
-.each-item {
-    position: relative;
-}
-
-.item-wrapper>img {
-    height: 350px;
-    width: 100%;
-    object-fit: cover;
-    background-size: cover;
-    background-position: center;
-    justify-content: center;
-}
-
-.image-click-link {
-    position: absolute;
-    top: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    width: 100%;
-    text-align: center;
-    color: transparent;
-}
-
 .gallery-image-darken {
     transition: 0.9s;
     filter: brightness(20%);
