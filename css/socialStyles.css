@@ -5,7 +5,7 @@
 
 .socialbtns {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     margin: 20px 5% 0 0;
 }
 
