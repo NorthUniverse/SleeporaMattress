@@ -84,19 +84,6 @@ body {
     font-family: "Georgia";
 }
 
-.gallery-image-darken {
-    transition: 0.9s;
-    filter: brightness(20%);
-}
-
-.gallery-image-text-focussed {
-    transition: 1s;
-    font-size: 1.5em;
-    font-family: "Georgia";
-    color: lightseagreen;
-    text-decoration: none;
-}
-
 .body-contact-background-image>img {
     opacity: 0.5;
     height: 650px;

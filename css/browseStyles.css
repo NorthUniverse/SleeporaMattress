@@ -6,7 +6,10 @@
 .browse-each-item {
     position: relative;
     padding: 5%;
-    margin: 5%;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
     box-shadow: 10px 10px 5px grey;
 }
 
