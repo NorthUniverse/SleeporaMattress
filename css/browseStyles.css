@@ -1,0 +1,33 @@
+.browse-items-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.browse-each-item {
+    position: relative;
+    padding: 5%;
+    margin: 5%;
+    box-shadow: 10px 10px 5px grey;
+}
+
+.browse-image-wrapper>img {
+    height: 350px;
+    width: 100%;
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+}
+
+.browse-image-text-wrapper {
+    top: 0;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-family: "Georgia";
+}
