@@ -31,7 +31,6 @@ body {
 .link-wrapper {
     display: flex;
     justify-content: space-between;
-    padding: 10px 38px 0px 38px;
     background-color: #DCDCDC;
 }
 
