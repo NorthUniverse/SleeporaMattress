@@ -1,9 +1,9 @@
-.browse-items-wrapper {
+.catalog-items-wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 
-.browse-each-item {
+.catalog-each-item {
     position: relative;
     padding: 5%;
     margin-right: 10%;
@@ -13,7 +13,7 @@
     box-shadow: 10px 10px 5px grey;
 }
 
-.browse-each-item:hover {
+.catalog-each-item:hover {
     position: relative;
     padding: 5%;
     margin-right: 10%;
@@ -25,8 +25,8 @@
     transition: 1s;
 }
 
-.browse-image-wrapper>img {
-    height: 350px;
+.catalog-image-wrapper>img {
+    height: 250px;
     width: 100%;
     object-fit: cover;
     background-size: cover;
@@ -34,7 +34,7 @@
     justify-content: center;
 }
 
-.browse-image-text-wrapper {
+.catalog-image-text-wrapper {
     top: 0;
     display: flex;
     align-items: center;
