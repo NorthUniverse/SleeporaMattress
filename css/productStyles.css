@@ -1,0 +1,24 @@
+.body-product {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 2%;
+}
+
+.body-product-image>img {
+    height: 450px;
+    width: 100%;
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+}
+
+.body-product-details {
+    align-self: center;
+    text-align: center;
+    /* justify-content: center; */
+    /* display: block; */
+    font-size: 1.5em;
+    font-family: "Georgia";
+    padding: 10%;
+}
