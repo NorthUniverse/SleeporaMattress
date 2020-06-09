@@ -1,11 +1,11 @@
 .body-product {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1.5fr 1fr;
     padding: 2%;
 }
 
 .body-product-image>img {
-    height: 450px;
+    height: 500px;
     width: 100%;
     object-fit: cover;
     background-size: cover;
@@ -13,12 +13,32 @@
     justify-content: center;
 }
 
-.body-product-details {
+.product-name {
     align-self: center;
     text-align: center;
-    /* justify-content: center; */
-    /* display: block; */
-    font-size: 1.5em;
+    font-size: 1.7em;
     font-family: "Georgia";
-    padding: 10%;
+}
+
+.product-details-content {
+    align-self: center;
+    font-size: 1.3em;
+    font-family: "Georgia";
+    padding: 0% 0% 0% 12%;
+}
+
+li {
+    margin: 5px 0;
+}
+
+.padding-top-high {
+    padding: 17% 10% 5% 10%;
+}
+
+.padding-top-med {
+    padding: 15% 10% 5% 10%;
+}
+
+.padding-top-low {
+    padding: 12% 10% 5% 10%;
 }
