@@ -12,6 +12,7 @@ body {
 .banner {
     display: grid;
     grid-template-columns: 1fr 2fr;
+    padding: 0% 10%;
 }
 
 .banner-image>img {
@@ -22,16 +23,18 @@ body {
 }
 
 .banner-text {
-    text-align: left;
-    font-size: 4.9em;
+    text-align: center;
+    font-size: 4.8em;
     font-family: "Georgia";
-    padding: 50px 200px 50px 0px;
+    align-items: center;
+    padding: 7% 0% 7% 0%;
 }
 
 .link-wrapper {
     display: flex;
     justify-content: space-between;
     background-color: #DCDCDC;
+    padding: 0% 10%;
 }
 
 .footer {
