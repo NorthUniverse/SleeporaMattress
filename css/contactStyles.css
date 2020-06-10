@@ -1,6 +1,6 @@
 .body-contact-background-image>img {
     opacity: 0.5;
-    height: 550px;
+    height: 500px;
     width: auto;
     display: block;
     margin-left: auto;
@@ -15,7 +15,7 @@
 .body-contact-text {
     position: absolute;
     text-align: center;
-    font-size: 1.4em;
+    font-size: 1.3em;
     font-family: "Georgia";
     padding: 0px 0px 50px 0px;
     top: 60%;
