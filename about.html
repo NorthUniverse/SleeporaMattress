@@ -12,7 +12,8 @@
 <body>
     <div class="container">
         <div class="header">
-            <div class="banner">
+
+            <div class="banner" onClick="location.href='index.html'">
                 <div class="banner-image">
                     <img src="images/logo.PNG" alt="banner picture">
                 </div>
@@ -88,6 +89,14 @@
 </body>
 
 <script>
+    const banner = document.querySelector('.banner')
+    banner.addEventListener('mouseover', () => {
+        banner.classList.add('cursor-pointer')
+    })
+    banner.addEventListener('mouseout', () => {
+        banner.classList.remove('cursor-pointer')
+    })
+
     const aboutImageDiv = document.querySelector('.body-about-background-image')
     const aboutTextDiv = document.querySelector('.body-about-text')
     aboutTextDiv.addEventListener('mouseover', () => {

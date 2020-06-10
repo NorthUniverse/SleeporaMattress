@@ -30,6 +30,10 @@ body {
     padding: 7% 0% 7% 0%;
 }
 
+.cursor-pointer {
+    cursor: pointer;
+}
+
 .link-wrapper {
     display: flex;
     justify-content: space-between;
