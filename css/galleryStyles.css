@@ -11,7 +11,7 @@
 }
 
 .gallery-image-wrapper>img {
-    height: 250px;
+    height: 240px;
     width: 100%;
     object-fit: cover;
     background-size: cover;
