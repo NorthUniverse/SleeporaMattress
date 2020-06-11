@@ -7,7 +7,7 @@
     position: relative;
     padding: 10%;
     margin: 10%;
-    box-shadow: 10px 10px 5px grey;
+    box-shadow: 5px 5px 2px grey;
 }
 
 .gallery-image-wrapper>img {
@@ -47,4 +47,5 @@
 .gallery-each-item-focus {
     transform: scale(1.1);
     transition: 1s;
+    box-shadow: 10px 10px 7px grey;
 }
