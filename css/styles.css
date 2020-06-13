@@ -11,20 +11,25 @@ body {
 
 .banner {
     display: grid;
-    grid-template-columns: 1fr 2fr;
-    padding: 0% 10%;
+    grid-template-columns: 0.8fr 1.5fr;
+    padding: 0% 25% 0% 25%;
+}
+
+.banner-image {
+    display: flex;
+    height: 100px;
 }
 
 .banner-image>img {
-    height: 200px;
+    align-items: center;
+    height: 100px;
     width: auto;
-    display: block;
     margin: auto;
 }
 
 .banner-text {
     text-align: center;
-    font-size: 4.8em;
+    font-size: 2.5em;
     font-family: "Georgia";
     align-items: center;
     padding: 7% 0% 7% 0%;
@@ -37,21 +42,20 @@ body {
 .link-wrapper {
     display: flex;
     justify-content: space-between;
-    background-color: #DCDCDC;
     padding: 0% 10%;
+    border-style: 1px;
 }
 
 .footer {
     display: flex;
     justify-content: space-between;
-    background-color: #DCDCDC;
 }
 
 .link-wrapper>div {
     margin: 10px;
-    font-size: 1.5em;
+    font-size: 1.2em;
     text-transform: uppercase;
-    height: 32px;
+    height: 22px;
 }
 
 .link-wrapper>div a {
