@@ -10,6 +10,7 @@
 .body-contact-wrapper {
     position: relative;
     width: 100%;
+    padding: 3%;
 }
 
 .body-contact-text {
@@ -17,7 +18,7 @@
     text-align: center;
     font-size: 1.3em;
     font-family: "Georgia";
-    padding: 0px 0px 50px 0px;
+    padding: 0px 0px 100px 0px;
     top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -26,4 +27,9 @@
 .contact-image-lighten {
     transition: 1s;
     opacity: 0.5;
+}
+
+.heading-wrapper {
+    font-size: 1.2em;
+    font-weight: bold;
 }

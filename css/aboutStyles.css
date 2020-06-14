@@ -1,6 +1,6 @@
 .body-about-background-image>img {
     opacity: 0.5;
-    height: 640px;
+    height: 600px;
     width: auto;
     display: block;
     margin-left: auto;
@@ -10,6 +10,7 @@
 .body-about-wrapper {
     position: relative;
     width: 100%;
+    padding: 3%;
 }
 
 .body-about-text {
@@ -25,4 +26,9 @@
 .about-image-lighten {
     transition: 1s;
     opacity: 0.5;
+}
+
+.heading-wrapper {
+    font-size: 1.2em;
+    font-weight: bold;
 }
