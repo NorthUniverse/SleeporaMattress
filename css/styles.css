@@ -43,12 +43,27 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 0% 10%;
-    border-style: 1px;
+    border-bottom: 1px solid grey;
+}
+
+.footer-link-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 0% 10%;
+    ;
 }
 
 .footer {
     display: flex;
     justify-content: space-between;
+    border-top: 1px solid grey;
+}
+
+.footer-link-wrapper>div {
+    margin: 10px;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    height: 22px;
 }
 
 .link-wrapper>div {
@@ -58,10 +73,20 @@ body {
     height: 22px;
 }
 
+.footer-link-wrapper>div a {
+    color: #696969;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
 .link-wrapper>div a {
     color: #696969;
     text-decoration: none;
     transition: color 0.2s;
+}
+
+.footer-link-wrapper>div:hover {
+    border-bottom: 2px solid black;
 }
 
 .link-wrapper>div:hover {
