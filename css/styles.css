@@ -33,6 +33,7 @@ body {
     font-family: "Cooper Black", "Georgia";
     align-items: center;
     padding: 7% 0% 7% 0%;
+    font-weight: normal;
 }
 
 .cursor-pointer {
