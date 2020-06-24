@@ -36,6 +36,10 @@ body {
     font-weight: normal;
 }
 
+.mobile-banner {
+    display: none;
+}
+
 .cursor-pointer {
     cursor: pointer;
 }
@@ -127,20 +131,32 @@ body {
         margin: 0px;
     }
     .banner {
-        display: grid;
-        grid-template-columns: 0.9fr 1.1fr;
-        padding: 0px;
+        display: none;
     }
-    .banner-image {
+    .mobile-banner {
+        display: grid;
+        grid-template-columns: 0.15fr 0.7fr 0.15fr;
+        padding: 0px;
+        justify-content: space-evenly;
+    }
+    .mobile-banner-image>img {
+        align-items: center;
+        height: 50px;
+        width: auto;
+        margin: auto;
+    }
+    .mobile-banner-image {
         display: flex;
         width: 100%;
         margin: 0px;
     }
-    .banner-image>img {
+    .mobile-banner-text {
+        text-align: center;
+        font-size: 1.35em;
+        font-family: "Cooper Black", "Georgia";
         align-items: center;
-        width: 50%;
-        width: auto;
-        margin: auto;
+        padding: 7% 0% 7% 0%;
+        font-weight: normal;
     }
     .link-wrapper {
         display: none;
