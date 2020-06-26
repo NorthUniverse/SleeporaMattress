@@ -23,12 +23,14 @@
                 </div>
             </div>
 
-            <div class="mobile-banner" onclick="location.href='index.html'">
-                <div class="menu"></div>
-                <div class="mobile-banner-text">
+            <div class="mobile-banner">
+                <div class="menu-btn">
+                    <div class="menu-btn-burger"></div>
+                </div>
+                <div class="mobile-banner-text" onclick="location.href='index.html'">
                     Sleepora Mattresses
                 </div>
-                <div class="mobile-banner-image">
+                <div class="mobile-banner-image" onclick="location.href='index.html'">
                     <img src="images/logo.PNG" alt="banner picture">
                 </div>
             </div>
@@ -78,16 +80,10 @@
         </div>
 
     </div>
+
+    <script src="js/index.js"></script>
+
 </body>
 
-<script>
-    const banner = document.querySelector('.banner')
-    banner.addEventListener('mouseover', () => {
-        banner.classList.add('cursor-pointer')
-    })
-    banner.addEventListener('mouseout', () => {
-        banner.classList.remove('cursor-pointer')
-    })
-</script>
 
 </html>
