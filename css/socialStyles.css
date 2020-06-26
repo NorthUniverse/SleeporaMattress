@@ -3,12 +3,6 @@
     text-decoration: none;
 }
 
-.socialbtns {
-    display: flex;
-    justify-content: space-between;
-    margin: 12px 5% 0 0;
-}
-
 .socialbtns img {
     margin-right: 10px;
     margin-left: 10px;
@@ -17,8 +11,30 @@
     height: auto;
 }
 
-.socialbtns img:hover {
-    transform: scale(1.3);
-    transition: 0.3s;
-    box-shadow: 10px 10px 5px grey;
+.socialbtns {
+    display: flex;
+}
+
+@media only screen and (min-width: 1008px) {
+    .socialbtns {
+        margin: 12px 5% 0 0;
+        justify-content: space-between;
+    }
+    .socialbtns img:hover {
+        transform: scale(1.3);
+        transition: 0.3s;
+        box-shadow: 10px 10px 5px grey;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .socialbtns {
+        margin-top: 5%;
+        justify-content: space-evenly;
+    }
+    .socialbtns img:hover {
+        transform: scale(1.3);
+        transition: 0.3s;
+        box-shadow: 10px 10px 5px grey;
+    }
 }
