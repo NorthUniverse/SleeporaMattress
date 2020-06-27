@@ -13,6 +13,13 @@ body {
     display: none;
 }
 
+.mobile-menu-styles {
+    text-align: center;
+    align-items: center;
+    background-color: lightgrey;
+    padding: 5vh;
+}
+
 @media only screen and (min-width: 1000px) {
     .container {
         display: grid;
@@ -194,18 +201,18 @@ body {
         display: none;
     }
     .body-home-background-image-mobile>img {
-        height: 630px;
+        height: 70vh;
         width: 100%;
         object-fit: cover;
         background-size: cover;
         background-position: center;
         justify-content: center;
     }
-    .footer-link-wrapper>.contact {
-        display: none;
-    }
     .body-home-text {
         font-size: 1.2em;
         padding: 10px;
+    }
+    .footer-link-wrapper>.contact {
+        display: none;
     }
 }

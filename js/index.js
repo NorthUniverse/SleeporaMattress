@@ -12,15 +12,21 @@ banner.addEventListener('mouseout', () => {
 });
 
 const menuBtn = document.querySelector('.menu-btn');
+const contentWrapper = document.querySelector('.content-wrapper');
+const footer = document.querySelector('.footer');
 let menuOpen = false;
 menuBtn.addEventListener('click', () => {
     if (!menuOpen) {
         menuBtn.classList.add('open');
         menuLinks.classList.remove('hide-element');
+        contentWrapper.classList.add('hide-element');
+        menuLinks.classList.add('mobile-menu-styles');
         menuOpen = true;
     } else {
         menuBtn.classList.remove('open');
         menuLinks.classList.add('hide-element');
+        contentWrapper.classList.remove('hide-element');
+        menuLinks.classList.remove('mobile-menu-styles');
         menuOpen = false;
     }
 });
