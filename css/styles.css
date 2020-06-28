@@ -204,6 +204,8 @@ body {
         font-family: Georgia, serif;
         font-size: 1.2em;
         text-transform: uppercase;
+        color: black;
+        text-shadow: 2px 2px 5px grey;
     }
     .content-wrapper>.body-home-background-image {
         display: none;
@@ -218,7 +220,7 @@ body {
     }
     .body-home-text {
         font-size: 1.2em;
-        padding: 10px;
+        padding: 1vh;
     }
     .footer-link-wrapper>.contact {
         display: none;
