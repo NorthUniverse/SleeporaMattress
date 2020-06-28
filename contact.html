@@ -24,18 +24,33 @@
                 </div>
             </div>
 
+            <div class="mobile-banner">
+                <div class="menu-btn">
+                    <div class="menu-btn-burger"></div>
+                </div>
+                <div class="mobile-banner-text" onclick="location.href='index.html'">
+                    Sleepora Mattresses
+                </div>
+                <div class="mobile-banner-image" onclick="location.href='index.html'">
+                    <img src="images/logo.PNG" alt="banner picture">
+                </div>
+            </div>
+
             <div class="link-wrapper">
-                <div class="index">
+                <div class="index menu-item">
                     <a href="index.html">Home</a>
                 </div>
-                <div class="catalog">
+                <div class="catalog menu-item">
                     <a href="catalog.html">Catalog</a>
                 </div>
-                <div class="gallery">
+                <div class="gallery menu-item">
                     <a href="gallery.html">Gallery</a>
                 </div>
-                <div class="about">
+                <div class="about menu-item">
                     <a href="about.html">Our Story</a>
+                </div>
+                <div class="contact menu-item">
+                    <a href="contact.html">Contact Us</a>
                 </div>
             </div>
         </div>
@@ -44,6 +59,9 @@
             <div class="body-contact-wrapper">
                 <div class="body-contact-background-image">
                     <img src="images/contact.jpg" alt="bed picture">
+                </div>
+                <div class="body-contact-background-image-mobile">
+                    <img src="images/mobile-contact.jpg" alt="bed picture mobile">
                 </div>
                 <div class="body-contact-text">
                     <div class="heading-wrapper">
@@ -89,23 +107,7 @@
     </div>
 </body>
 
-<script>
-    const banner = document.querySelector('.banner')
-    banner.addEventListener('mouseover', () => {
-        banner.classList.add('cursor-pointer')
-    })
-    banner.addEventListener('mouseout', () => {
-        banner.classList.remove('cursor-pointer')
-    })
-
-    const imageDiv = document.querySelector('.body-contact-background-image')
-    const contactTextDiv = document.querySelector('.body-contact-text')
-    contactTextDiv.addEventListener('mouseover', () => {
-        imageDiv.classList.add('contact-image-lighten');
-    })
-    contactTextDiv.addEventListener('mouseout', () => {
-        imageDiv.classList.remove('contact-image-lighten');
-    })
-</script>
+<script src="js/index.js"></script>
+<script src="js/contact.js"></script>
 
 </html>
