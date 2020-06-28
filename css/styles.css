@@ -9,15 +9,8 @@ body {
     font-family: "Georgia";
 }
 
-.hide-element {
+.display-none {
     display: none;
-}
-
-.mobile-menu-styles {
-    text-align: center;
-    align-items: center;
-    background-color: lightgrey;
-    padding: 5vh;
 }
 
 @media only screen and (min-width: 1000px) {
@@ -197,6 +190,21 @@ body {
         padding: 7% 0% 7% 0%;
         font-weight: normal;
     }
+    .mobile-menu-styles {
+        text-align: center;
+        background-color: lightgrey;
+        height: 15vh;
+        border-bottom: 1px solid darkgrey;
+    }
+    .each-menu-item {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding-top: 6vh;
+        text-decoration: none;
+        font-family: Georgia, serif;
+        font-size: 1.2em;
+        text-transform: uppercase;
+    }
     .content-wrapper>.body-home-background-image {
         display: none;
     }
@@ -214,5 +222,8 @@ body {
     }
     .footer-link-wrapper>.contact {
         display: none;
+    }
+    .padding-top {
+        padding-top: 3vh;
     }
 }
