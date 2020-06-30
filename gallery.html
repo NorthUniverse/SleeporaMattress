@@ -24,18 +24,33 @@
                 </div>
             </div>
 
+            <div class="mobile-banner">
+                <div class="menu-btn">
+                    <div class="menu-btn-burger"></div>
+                </div>
+                <div class="mobile-banner-text" onclick="location.href='index.html'">
+                    Sleepora Mattresses
+                </div>
+                <div class="mobile-banner-image" onclick="location.href='index.html'">
+                    <img src="images/logo.PNG" alt="banner picture">
+                </div>
+            </div>
+
             <div class="link-wrapper">
-                <div class="index">
+                <div class="index active-link menu-item">
                     <a href="index.html">Home</a>
                 </div>
-                <div class="catalog">
+                <div class="catalog menu-item">
                     <a href="catalog.html">Catalog</a>
                 </div>
-                <div class="gallery active-link">
+                <div class="gallery menu-item">
                     <a href="gallery.html">Gallery</a>
                 </div>
-                <div class="about">
+                <div class="about menu-item">
                     <a href="about.html">Our Story</a>
+                </div>
+                <div class="contact menu-item">
+                    <a href="contact.html">Contact Us</a>
                 </div>
             </div>
         </div>
@@ -163,32 +178,7 @@
     </div>
 </body>
 
-<script>
-    const banner = document.querySelector('.banner');
-    banner.addEventListener('mouseover', () => {
-        banner.classList.add('cursor-pointer');
-    });
-    banner.addEventListener('mouseout', () => {
-        banner.classList.remove('cursor-pointer');
-    });
-
-    const imageTextLinks = document.querySelectorAll('.gallery-image-text-wrapper');
-    imageTextLinks.forEach(imageTextLink => {
-        imageTextLink.addEventListener('mouseover', () => {
-            imageTextLink.classList.add('gallery-image-text-focussed');
-            const eachItem = imageTextLink.parentElement;
-            const itemWrapper = imageTextLink.parentElement.childNodes[1];
-            itemWrapper.classList.add('gallery-image-darken');
-            eachItem.classList.add('gallery-each-item-focus');
-        });
-        imageTextLink.addEventListener('mouseout', () => {
-            imageTextLink.classList.remove('gallery-image-text-focussed');
-            const eachItem = imageTextLink.parentElement;
-            const itemWrapper = imageTextLink.parentElement.childNodes[1];
-            itemWrapper.classList.remove('gallery-image-darken');
-            eachItem.classList.remove('gallery-each-item-focus');
-        });
-    });
-</script>
+<script src="js/index.js"></script>
+<script src="js/gallery.js"></script>
 
 </html>
