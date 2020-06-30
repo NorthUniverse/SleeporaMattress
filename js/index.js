@@ -1,7 +1,5 @@
 const menuLinks = document.querySelector('.link-wrapper');
-window.onload = function() {
-    menuLinks.classList.add('display-none');
-};
+menuLinks.classList.add('display-none');
 
 const banner = document.querySelector('.banner');
 banner.addEventListener('mouseover', () => {
