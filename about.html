@@ -24,18 +24,33 @@
                 </div>
             </div>
 
-            <div class="link-wrapper">
+            <div class="mobile-banner">
+                <div class="menu-btn">
+                    <div class="menu-btn-burger"></div>
+                </div>
+                <div class="mobile-banner-text" onclick="location.href='index.html'">
+                    Sleepora Mattresses
+                </div>
+                <div class="mobile-banner-image" onclick="location.href='index.html'">
+                    <img src="images/logo.PNG" alt="banner picture">
+                </div>
+            </div>
+
+            <div class="link-wrapper menu-item">
                 <div class="index">
                     <a href="index.html">Home</a>
                 </div>
-                <div class="catalog">
+                <div class="catalog menu-item">
                     <a href="catalog.html">Catalog</a>
                 </div>
-                <div class="gallery">
+                <div class="gallery menu-item">
                     <a href="gallery.html">Gallery</a>
                 </div>
-                <div class="about active-link">
+                <div class="about active-link menu-item">
                     <a href="about.html">Our Story</a>
+                </div>
+                <div class="contact menu-item">
+                    <a href="contact.html">Contact Us</a>
                 </div>
             </div>
         </div>
@@ -90,23 +105,9 @@
     </div>
 </body>
 
-<script>
-    const banner = document.querySelector('.banner')
-    banner.addEventListener('mouseover', () => {
-        banner.classList.add('cursor-pointer')
-    })
-    banner.addEventListener('mouseout', () => {
-        banner.classList.remove('cursor-pointer')
-    })
 
-    const aboutImageDiv = document.querySelector('.body-about-background-image')
-    const aboutTextDiv = document.querySelector('.body-about-text')
-    aboutTextDiv.addEventListener('mouseover', () => {
-        aboutImageDiv.classList.add('about-image-lighten');
-    })
-    aboutTextDiv.addEventListener('mouseout', () => {
-        aboutImageDiv.classList.remove('about-image-lighten');
-    })
-</script>
+
+<script src="js/index.js"></script>
+<script src="js/about.js"></script>
 
 </html>
