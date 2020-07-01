@@ -1,51 +1,68 @@
 .catalog-items-wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding: 0% 10%;
 }
 
-.catalog-each-item {
-    position: relative;
-    padding: 5%;
-    margin-right: 10%;
-    margin-left: 10%;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    border: 1px solid rgb(132, 132, 132);
-    box-shadow: 5px 5px 2px grey;
+@media only screen and (min-width: 1000px) {
+    .catalog-items-wrapper {
+        padding: 0% 10%;
+    }
+    .catalog-each-item {
+        position: relative;
+        padding: 5%;
+        margin: 5% 10%;
+        border: 1px solid rgb(132, 132, 132);
+        box-shadow: 5px 5px 2px grey;
+    }
+    .catalog-each-item:hover {
+        position: relative;
+        padding: 5%;
+        margin-right: 10%;
+        margin-left: 10%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        box-shadow: 10px 10px 7px grey;
+        transform: scale(1.1);
+        transition: 1s;
+    }
+    .catalog-image-wrapper>img {
+        height: 250px;
+        width: 100%;
+        object-fit: cover;
+        background-size: cover;
+        background-position: center;
+        justify-content: center;
+    }
+    .catalog-image-text-wrapper {
+        top: 0;
+        display: flex;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        text-decoration: none;
+        font-size: 1.5em;
+        font-family: "Georgia";
+        color: black;
+    }
 }
 
-.catalog-each-item:hover {
-    position: relative;
-    padding: 5%;
-    margin-right: 10%;
-    margin-left: 10%;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    box-shadow: 10px 10px 7px grey;
-    transform: scale(1.1);
-    transition: 1s;
-}
-
-.catalog-image-wrapper>img {
-    height: 250px;
-    width: 100%;
-    object-fit: cover;
-    background-size: cover;
-    background-position: center;
-    justify-content: center;
-}
-
-.catalog-image-text-wrapper {
-    top: 0;
-    display: flex;
-    align-items: center;
-    height: 100%;
-    width: 100%;
-    text-align: center;
-    justify-content: center;
-    text-decoration: none;
-    font-size: 1.5em;
-    font-family: "Georgia";
-    color: black;
+@media only screen and (max-width: 999px) {
+    .catalog-each-item {
+        padding: 5%;
+        margin: 5% 5%;
+        border: 1px solid rgb(132, 132, 132);
+        box-shadow: 5px 5px 2px grey;
+    }
+    .catalog-image-wrapper>img {
+        width: 100%;
+    }
+    .catalog-image-text-wrapper {
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+        font-family: "Georgia";
+        color: black;
+    }
 }
