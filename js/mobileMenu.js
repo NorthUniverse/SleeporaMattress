@@ -1,14 +1,6 @@
 const menuLinks = document.querySelector('.link-wrapper');
 menuLinks.classList.add('display-none');
 
-const banner = document.querySelector('.banner');
-banner.addEventListener('mouseover', () => {
-    banner.classList.add('cursor-pointer')
-});
-banner.addEventListener('mouseout', () => {
-    banner.classList.remove('cursor-pointer')
-});
-
 const menuBtn = document.querySelector('.menu-btn');
 const menuItems = document.querySelectorAll('.menu-item');
 const contentWrapper = document.querySelector('.content-wrapper');
