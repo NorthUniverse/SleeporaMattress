@@ -4,6 +4,9 @@
 }
 
 @media only screen and (min-width: 1000px) {
+    .mobile-content-header {
+        display: none;
+    }
     .catalog-items-wrapper {
         padding: 0% 10%;
     }
@@ -49,6 +52,14 @@
 }
 
 @media only screen and (max-width: 999px) {
+    .mobile-content-header {
+        text-align: center;
+        align-items: center;
+        font-size: 1.3em;
+        font-family: "Georgia";
+        padding: 1vh;
+        font-weight: bold;
+    }
     .catalog-each-item {
         padding: 5%;
         margin: 5% 5%;
