@@ -13,7 +13,7 @@
     position: absolute;
     text-align: center;
     font-family: "Georgia";
-    padding: 0px 0px 100px 0px;
+    padding: 0px 0px 110px 0px;
     top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -23,7 +23,6 @@
     .body-contact-background-image>img {
         opacity: 0.5;
         height: 500px;
-        width: auto;
         display: block;
         margin-left: auto;
         margin-right: auto;
@@ -45,8 +44,6 @@
         height: 80vh;
         width: 100%;
         display: block;
-        margin-left: auto;
-        margin-right: auto;
     }
     .body-contact-text {
         font-size: 1.2em;
