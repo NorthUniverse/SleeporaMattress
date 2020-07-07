@@ -1,3 +1,17 @@
+.body-about-background-image>img {
+    height: auto;
+}
+
+.body-about-text {
+    text-align: center;
+    font-family: "Georgia";
+}
+
+.heading-wrapper {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
 @media only screen and (min-width: 1000px) {
     .body-about-wrapper {
         display: flex;
@@ -5,21 +19,14 @@
         align-items: center;
     }
     .body-about-background-image>img {
-        /* height: 550px; */
-        width: 500px;
+        width: 600px;
         height: auto;
         padding: 3%;
     }
     .body-about-text {
-        text-align: center;
         line-height: 1.4em;
-        font-family: "Georgia";
         width: 500px;
         padding: 3%;
-    }
-    .heading-wrapper {
-        font-size: 1.2em;
-        font-weight: bold;
     }
 }
 
@@ -29,15 +36,9 @@
         height: auto;
     }
     .body-about-text {
-        text-align: center;
-        font-family: "Georgia";
         top: 50%;
         left: 50%;
         line-height: 4vh;
         margin: 0vh 2vw;
-    }
-    .heading-wrapper {
-        font-size: 1.2em;
-        font-weight: bold;
     }
 }
