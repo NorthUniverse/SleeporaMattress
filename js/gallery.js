@@ -1,11 +1,3 @@
-const banner = document.querySelector('.banner');
-banner.addEventListener('mouseover', () => {
-    banner.classList.add('cursor-pointer');
-});
-banner.addEventListener('mouseout', () => {
-    banner.classList.remove('cursor-pointer');
-});
-
 const imageTextLinks = document.querySelectorAll('.gallery-image-text-wrapper');
 imageTextLinks.forEach(imageTextLink => {
     imageTextLink.addEventListener('mouseover', () => {
