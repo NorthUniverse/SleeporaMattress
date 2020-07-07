@@ -1,3 +1,9 @@
+.heading-wrapper {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: -0.6em;
+}
+
 @media only screen and (min-width: 1000px) {
     .body-contact-background-image>img {
         opacity: 0.5;
@@ -15,7 +21,6 @@
     .body-contact-text {
         position: absolute;
         text-align: center;
-        font-size: 1.2em;
         font-family: "Georgia";
         padding: 0px 0px 100px 0px;
         top: 60%;
@@ -26,10 +31,10 @@
         transition: 1s;
         opacity: 0.5;
     }
-    .heading-wrapper {
+    /* .heading-wrapper {
         font-size: 1.2em;
         font-weight: bold;
-    }
+    } */
     .body-contact-background-image-mobile {
         display: none;
     }
