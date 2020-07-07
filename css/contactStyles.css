@@ -31,10 +31,6 @@
         transition: 1s;
         opacity: 0.5;
     }
-    /* .heading-wrapper {
-        font-size: 1.2em;
-        font-weight: bold;
-    } */
     .body-contact-background-image-mobile {
         display: none;
     }
@@ -69,9 +65,5 @@
     .contact-image-lighten {
         transition: 1s;
         opacity: 0.5;
-    }
-    .heading-wrapper {
-        font-size: 1.2em;
-        font-weight: bold;
     }
 }
