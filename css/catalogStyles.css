@@ -3,6 +3,23 @@
     grid-template-columns: 1fr 1fr;
 }
 
+.catalog-each-item {
+    padding: 5%;
+    border: 1px solid rgb(132, 132, 132);
+}
+
+.catalog-image-wrapper>img {
+    width: 100%;
+}
+
+.catalog-image-text-wrapper {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-family: "Georgia";
+    color: black;
+}
+
 @media only screen and (min-width: 1000px) {
     .mobile-content-header {
         display: none;
@@ -12,9 +29,7 @@
     }
     .catalog-each-item {
         position: relative;
-        padding: 5%;
         margin: 5% 10%;
-        border: 1px solid rgb(132, 132, 132);
         box-shadow: 5px 5px 2px grey;
     }
     .catalog-each-item:hover {
@@ -30,7 +45,6 @@
     }
     .catalog-image-wrapper>img {
         height: 250px;
-        width: 100%;
         object-fit: cover;
         background-size: cover;
         background-position: center;
@@ -38,16 +52,11 @@
     }
     .catalog-image-text-wrapper {
         top: 0;
-        display: flex;
         align-items: center;
         height: 100%;
         width: 100%;
         text-align: center;
-        justify-content: center;
-        text-decoration: none;
         font-size: 1.5em;
-        font-family: "Georgia";
-        color: black;
     }
 }
 
@@ -61,19 +70,7 @@
         font-weight: bold;
     }
     .catalog-each-item {
-        padding: 5%;
         margin: 5% 5%;
-        border: 1px solid rgb(132, 132, 132);
         box-shadow: 5px 5px 2px grey;
-    }
-    .catalog-image-wrapper>img {
-        width: 100%;
-    }
-    .catalog-image-text-wrapper {
-        display: flex;
-        justify-content: center;
-        text-decoration: none;
-        font-family: "Georgia";
-        color: black;
     }
 }
