@@ -48,4 +48,9 @@
     .body-product-details {
         padding: 10% 0%;
     }
+    .product-details-content {
+        max-width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
